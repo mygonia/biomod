@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Header({ title }) {
   return (
   <>
-    <div className="circle">
+    <div className="">
     <h1 className="title">{title}</h1>
     <ul>
       <li>
