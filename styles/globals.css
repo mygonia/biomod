@@ -69,3 +69,8 @@ em {
 ul {
   list-style-type: none;
 }
+
+.circle {
+  border-radius: 50%;
+  background-color: #7A003C;
+}
