@@ -1,10 +1,10 @@
-.animated-border-quote {
+.animated {
   display: inline-block;
   margin: 1em;
   max-width: 20em;
   overflow: hidden;
 }
-.animated-border-quote blockquote {
+.animated blockquote {
   background-color: #fff;
   border: solid 2px #757575;
   display: inline-block;
@@ -12,7 +12,7 @@
   padding: 1em;
   position: relative;
 }
-.animated-border-quote blockquote:before {
+.animated blockquote:before {
   animation: clockwise 30s infinite linear;
   background-color: #fff;
   bottom: 10%;
@@ -23,7 +23,7 @@
   right: 0;
   top: 10%;
 }
-.animated-border-quote blockquote:after {
+.animated blockquote:after {
   animation: counter 30s infinite linear;
   background-color: #fff;
   bottom: 10%;
@@ -34,15 +34,15 @@
   right: 0;
   top: 10%;
 }
-.animated-border-quote blockquote cite {
+.animated blockquote cite {
   display: block;
   font-style: italic;
   text-align: right;
 }
-.animated-border-quote blockquote cite:before {
+.animated blockquote cite:before {
   content: "- ";
 }
-.animated-border-quote blockquote > * {
+.animated blockquote > * {
   position: relative;
   z-index: 1;
 }
