@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Link from 'next/link'
+import DNABackground from '@components/dnaBackground'
 import Image from 'next/image'
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <DNABackground />
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
