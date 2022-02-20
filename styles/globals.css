@@ -45,6 +45,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  background-color: #5E6A71;
+  color: #EEEEFF;
+}
+
 code {
   background: #fafafa;
   color:black;
