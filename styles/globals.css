@@ -12,6 +12,7 @@ body, canvas {
   top: 0;
   left: 0;
   color: #fff;
+  mix-blend-mode: screen;
 }
 
 canvas {
@@ -59,4 +60,9 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+em {
+  background: #FDBF57;
+  color: black;
 }

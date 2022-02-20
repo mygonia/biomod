@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        Made with <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} /> from McMaster University in Hamilton, Ontario for you
+        Made with <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} /> from <em>McMaster University in Hamilton, Ontario</em> for you
       </footer>
     </>
   )
