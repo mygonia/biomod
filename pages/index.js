@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <Dnabackground></Dnabackground>
-      <img id="shouldersOfGiants" src="shouldersOfGiants.png"></img>
+      <img id="shouldersOfGiants" src="/images/shouldersOfGiants.png"></img>
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
