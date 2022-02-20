@@ -55,6 +55,7 @@ a:hover {
   background-color: #5E6A71;
   color: #EEEEFF;
   scale: 2;
+  box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
   transition: 0.3s;
 }
 
