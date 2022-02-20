@@ -11,16 +11,16 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>BIOMOD Project</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Dnabackground></Dnabackground>
       <img id="shouldersOfGiants" src="/images/shouldersOfGiants.png"></img>
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="[Title of BIOMOD Project]" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Some interesting <code>tagline</code>
         </p>
         <h1 className="title">
           Read{' '}
