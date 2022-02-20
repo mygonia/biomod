@@ -7,11 +7,6 @@ import { useRouter } from 'next/router'
 
 const router = useRouter()
 
-const handleClick = (e) => {
-    e.preventDefault()
-    router.push(href)
-  }
-
 export default function FirstPost({ title, nextpage }) {
     return (
         <Layout>
@@ -23,7 +18,7 @@ export default function FirstPost({ title, nextpage }) {
                 <Link href="/">
                     <a>Back to home</a>
                 </Link> | 
-                <Link href={"/sections/" + nextpage} onClick={handleClick}>
+                <Link href={"/sections/" + nextpage} onClick={() => router.push({'/sections/' + nextpage})}>
                     <a>{nextpage}</a>
                 </Link>
             </h2>
