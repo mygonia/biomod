@@ -21,9 +21,17 @@ export default function Header({ title }) {
               <a>Background</a>
             </Link>
           </li>
-          <li>Problem</li>
+          <li>
+            <Link href="/sections/problem.js">
+              <a>Problem</a>  
+            </Link>
+          </li>
         </ul>
-      <li>Solution</li>
+      <li>
+        <Link href="/sections/solution.js">
+          <a>Solution</a>
+        </Link>
+      </li>
         <ul>
           <li>Summary of Findings</li>
           <li>Mechanism</li>
