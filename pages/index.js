@@ -23,11 +23,13 @@ export default function Home() {
             <a>this page!</a>
           </Link>
         </h1>
-        <Image 
-          src="/images/shouldersOfGiants.jpg"
-          layout="responsive"
-          alt="I see further because I stand on the shoulders of giants."
-        />
+        <div style="width:100vw;">
+          <Image 
+            src="/images/shouldersOfGiants.jpg"
+            layout="responsive"
+            alt="I see further because I stand on the shoulders of giants."
+          />
+        </div>
       </main>
 
       <Footer />
