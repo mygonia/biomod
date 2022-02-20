@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -22,6 +23,11 @@ export default function Home() {
             <a>this page!</a>
           </Link>
         </h1>
+        <Image 
+          src="/images/shouldersOfGiants.jpg"
+          layout="fill"
+          alt="I see further because I stand on the shoulders of giants."
+        />
       </main>
 
       <Footer />
