@@ -4,7 +4,7 @@ import Footer from '@components/Footer'
 import Link from 'next/link'
 import Script from 'next/script'
 import Image from 'next/image'
-import dnaBackground from '@components/dnaBackground'
+import Dnabackground from '@components/dnaBackground'
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <dnaBackground />
+      <Dnabackground></Dnabackground>
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
@@ -27,11 +27,7 @@ export default function Home() {
           </Link>
         </h1>
       </main>
-      <div class="box">
-        <div class="movingBackground">
-          <p>"If I have seen further it is by standing on the shoulders of Giants"</p>
-        </div>
-      </div>
+
       <Footer />
     </div>
   )
