@@ -3,9 +3,18 @@ import Footer from '@components/Footer'
 import Head from 'next/head'
 import Layout from '@components/layout'
 import Link from 'next/link'
+import { motion } from 'framer-motion';
 
-export default function FirstPost({ title, nextpage }) {
+export default function FirstPost({ title, nextpage, router }) {
     return (
+        <motion.div key={router.route} initial="pageInitial" animate="pageAnimate" variants={{
+            pageInitial: {
+              opacity: 0
+            },
+            pageAnimate: {
+              opacity: 1
+            },
+          }}>
         <Layout>
             <Head>
                 <title>{title}</title>
@@ -14,12 +23,13 @@ export default function FirstPost({ title, nextpage }) {
             <h2>
                 <Link href="/">
                     <a>Back to home</a>
-                </Link> |
+                </Link> | 
                 <Link href={"/sections/" + nextpage}>
                     <a>{nextpage}</a>
                 </Link>
             </h2>
             <Footer/>
         </Layout>
+        </motion.div>
     )
 }
