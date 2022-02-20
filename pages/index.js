@@ -28,7 +28,7 @@ export default function Home() {
             <a>this page!</a>
           </Link>
         </h1>
-        
+        <Quotebox quote="If I have seen further it is by standing on the shoulders of Giants." author="Isaac Newton"/>
       </main>
 
       <Footer />
