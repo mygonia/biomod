@@ -19,14 +19,14 @@ export default function Home() {
       <Dnabackground></Dnabackground>
       <motion.div initial="hidden" animate="visible" variants={{
         hidden: {
-          scale: .8,
+          scale: .5,
           opacity: 0
         },
         visible: {
           scale: 1,
           opacity: 1,
           transition: {
-            delay: .4
+            delay: 1.4
           }
         },
       }}>
