@@ -6,8 +6,8 @@ export default function dnaBackground() {
             <Script
                 src="https://cdnjs.cloudflare.com/ajax/libs/three.js/86/three.min.js"
             />
-            <script src="/static/script2.js"></script>
-            <script src="/static/script.js"></script>
+            <script src="/public/static/script2.js"></script>
+            <script src="/public/static/script.js"></script>
         </>
     )
 }
