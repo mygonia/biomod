@@ -26,7 +26,7 @@ export default function Home() {
           scale: 1,
           opacity: 1,
           transition: {
-            delay: 3.4
+            delay: .4
           }
         },
       }} id="shouldersOfGiants" src="/images/shouldersOfGiants.png">
@@ -42,7 +42,21 @@ export default function Home() {
             <a>our video!</a>
           </Link>
         </h1>
-        <Quotebox quote="If I have seen further it is by standing on the shoulders of Giants." author="Isaac Newton"/>
+        <motion.div initial="hidden" animate="visible" variants={{
+        hidden: {
+          scale: .5,
+          opacity: 0
+        },
+        visible: {
+          scale: 1,
+          opacity: 1,
+          transition: {
+            delay: .4
+          }
+        },
+      }}>
+          <Quotebox quote="If I have seen further it is by standing on the shoulders of Giants." author="Isaac Newton"/>
+        </motion.div>
       </main>
 
       <Footer />
