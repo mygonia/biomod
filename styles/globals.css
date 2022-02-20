@@ -78,4 +78,7 @@ ul {
 .circle {
   border-radius: 50%;
   background-color: #7A003C;
+  padding: 3em;
+  border-style: solid;
+  border-color: #FDBF57;
 }
