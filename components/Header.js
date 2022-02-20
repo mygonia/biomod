@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Header({ title }) {
   return (
   <>
-    <h1 className="title">{title}</h1>
+    <h1 className="circle">{title}</h1>
     <ul>
       <li>
         <Link href="/sections/abstract">
