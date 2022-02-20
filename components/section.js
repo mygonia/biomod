@@ -5,7 +5,7 @@ import Layout from '@components/layout'
 import Link from 'next/link'
 import Dnabackground from '@components/dnaBackground'
 
-export default function FirstPost({ title, nextpage }) {
+export default function FirstPost({ title, nextpage, additionalInfo }) {
     return (
         <Layout>
             <Head>
@@ -18,7 +18,7 @@ export default function FirstPost({ title, nextpage }) {
                     <a>Back to Home</a>
                 </Link> | 
                 <Link href={"/sections/" + nextpage}>
-                    <a>{nextpage}</a>
+                    <a>{nextpage} {additionalInfo}</a>
                 </Link>
             </h2>
             <Footer/>
