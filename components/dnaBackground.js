@@ -7,7 +7,6 @@ export default function dnaBackground() {
             src="https://cdnjs.cloudflare.com/ajax/libs/three.js/86/three.min.js"
         />
         <Script 
-            strategy="beforeInteractive"
             dangerouslySetInnerHTML={{
                 __html: `
                 /*
