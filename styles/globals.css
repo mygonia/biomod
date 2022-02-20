@@ -19,10 +19,11 @@ canvas {
 }
 
 #shouldersOfGiants {
-  size-adjust: ;
   position:fixed;
   right:0px;
   bottom: 0px;
+  max-width: 50vw;
+  height: auto;
   z-index: -1;
 }
 
