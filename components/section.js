@@ -18,7 +18,7 @@ export default function FirstPost({ title, nextpage, additionalInfo }) {
                     <a>Back to Home</a>
                 </Link> | 
                 <Link href={"/sections/" + nextpage}>
-                    <a>{nextpage} {additionalInfo}</a>
+                    <a> {nextpage} {additionalInfo}</a>
                 </Link>
             </h2>
             <Footer/>
