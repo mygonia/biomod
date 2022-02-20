@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 const YourComponent = () => (
     <Image
-        src="https://raw.githubusercontent.com/cat-milk/Anime-Girls-Holding-Programming-Books/master/Javascript/Doma_Umaru_Java_Script_The_Good_Parts.png"
+        src="/images/profile.jpg"
         height={144}
         width={144}
-        alt="Holding a Javascript textbook"
+        alt="Your Name"
     />
 )
 
