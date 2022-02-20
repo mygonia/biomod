@@ -43,12 +43,32 @@ export default function Header({ title }) {
               <a>Mechanism</a>
             </Link>
           </li>
-          <li>caDNAno Simulations</li>
+          <li>
+            <Link href="/sections/cadnano">
+              <a>caDNAno Simulations</a>
+            </Link>
+          </li>
         </ul>
-      <li>Materials and Methods</li>
-      <li>Discussion</li>
-      <li>Future</li>
-      <li>Team</li>
+      <li>
+        <Link href="/sections/materials">
+          <a>Materials and Methods</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/sections/discussion">
+          <a>Discussion</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/sections/future">
+          <a>Future</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/sections/team">
+          <a>Team</a>
+        </Link>
+      </li>
     </ul>
   </>
   )
