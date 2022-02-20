@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -57,14 +58,18 @@ code {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #ffffff;
   display: block;
   transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
 #sidenav a:hover {
-  color: #f1f1f1;
+  color: #5E6A71;
+}
+
+#sidenav li:hover {
+  color:#0070f3;
 }
 
 /* Position and style the close button (top right corner) */
