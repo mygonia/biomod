@@ -11,10 +11,17 @@ body, canvas {
   position: absolute;
   top: 0;
   left: 0;
+  color: #fff;
 }
 
 canvas {
   z-index: -1;
+}
+
+#shouldersOfGiants {
+  position:fixed;
+  right:10px;
+  bottom: 10px 
 }
 
 * {
