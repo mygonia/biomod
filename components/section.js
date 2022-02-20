@@ -3,6 +3,7 @@ import Footer from '@components/Footer'
 import Head from 'next/head'
 import Layout from '@components/layout'
 import Link from 'next/link'
+import Dnabackground from '@components/dnaBackground'
 
 export default function FirstPost({ title, nextpage }) {
     return (
@@ -10,6 +11,7 @@ export default function FirstPost({ title, nextpage }) {
             <Head>
                 <title>{title}</title>
             </Head>
+            <Dnabackground></Dnabackground>
             <h1>{title} - <Link href="/"><a>Home</a></Link></h1>
             <h2>
                 <Link href="/">
