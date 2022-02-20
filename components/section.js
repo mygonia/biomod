@@ -3,10 +3,6 @@ import Footer from '@components/Footer'
 import Head from 'next/head'
 import Layout from '@components/layout'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
-import ActiveLink from './activelink'
-
-const router = useRouter()
 
 export default function FirstPost({ title, nextpage }) {
     return (
@@ -20,7 +16,7 @@ export default function FirstPost({ title, nextpage }) {
                     <a>Back to Home</a>
                 </Link> | 
                 <Link href={"/sections/" + nextpage}>
-                    <ActiveLink href={"/sections/" + nextpage}>{nextpage}</ActiveLink>
+                    <a>{nextpage}</a>
                 </Link>
             </h2>
             <Footer/>
