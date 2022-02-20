@@ -83,6 +83,7 @@ ul {
 
 .circle {
   border-radius: 100%;
+  padding: 15rem;
   background-color: #7A003C;
   border-style: solid;
   border-color: #FDBF57;
