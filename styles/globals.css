@@ -21,7 +21,7 @@ canvas {
 #shouldersOfGiants {
   position:fixed;
   right:0px;
-  bottom: 0px;
+  bottom: 100px;
   max-width: 50vw;
   max-height: 20vh;
   height: auto;
