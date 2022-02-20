@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div style="width:100vw;">
+      <div>
         <Image 
           src="/images/shouldersOfGiants.jpg"
           layout="responsive"
