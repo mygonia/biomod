@@ -48,6 +48,7 @@ a {
 a:hover {
   background-color: #5E6A71;
   color: #EEEEFF;
+  transition: 0.3s;
 }
 
 code {
