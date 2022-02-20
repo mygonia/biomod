@@ -26,7 +26,7 @@ export default function Home() {
           scale: 1,
           opacity: 1,
           transition: {
-            delay: 1.4
+            delay: 3.4
           }
         },
       }}>
