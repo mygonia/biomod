@@ -12,6 +12,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <div style="width:100vw;">
+        <Image 
+          src="/images/shouldersOfGiants.jpg"
+          layout="responsive"
+          alt="I see further because I stand on the shoulders of giants."
+        />
+      </div>
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
@@ -23,13 +30,6 @@ export default function Home() {
             <a>this page!</a>
           </Link>
         </h1>
-        <div style="width:100vw;">
-          <Image 
-            src="/images/shouldersOfGiants.jpg"
-            layout="responsive"
-            alt="I see further because I stand on the shoulders of giants."
-          />
-        </div>
       </main>
 
       <Footer />
