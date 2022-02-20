@@ -3,9 +3,6 @@ import Footer from '@components/Footer'
 import Head from 'next/head'
 import Layout from '@components/layout'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
-
-const router = useRouter()
 
 export default function FirstPost({ title, nextpage }) {
     return (
