@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Script from 'next/script'
 import Image from 'next/image'
 import Dnabackground from '@components/dnaBackground'
+import Quotebox from '@components/quotebox'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
             <a>this page!</a>
           </Link>
         </h1>
+        <Quotebox quote="If I have seen further it is by standing on the shoulders of Giants." author="Isaac Newton"/>
       </main>
 
       <Footer />

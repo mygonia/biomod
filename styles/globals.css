@@ -67,3 +67,7 @@ em {
   background: #FDBF57;
   color: black;
 }
+
+ul {
+  list-style-type: none;
+}
