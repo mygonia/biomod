@@ -3,6 +3,9 @@ import Footer from '@components/Footer'
 import Head from 'next/head'
 import Layout from '@components/layout'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
+
+const router = useRouter()
 
 export default function FirstPost({ title, nextpage }) {
     return (
@@ -15,9 +18,7 @@ export default function FirstPost({ title, nextpage }) {
                 <Link href="/">
                     <a>Back to Home</a>
                 </Link> | 
-                <Link href={"sections/" + nextpage}>
-                    <a>{nextpage}</a>
-                </Link>
+                <a onClick={() => router.push('/sections/' + {nextpage})}>{nextpage}</a>
             </h2>
             <Footer/>
         </Layout>
