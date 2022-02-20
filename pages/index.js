@@ -6,7 +6,7 @@ import Script from 'next/script'
 import Image from 'next/image'
 import Dnabackground from '@components/dnaBackground'
 import Quotebox from '@components/quotebox'
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
 
       <Dnabackground></Dnabackground>
-      <motion.div initial="hidden" animate="visible" variants={{
+      <motion.img initial="hidden" animate="visible" variants={{
         hidden: {
           scale: .5,
           opacity: 0
@@ -29,9 +29,8 @@ export default function Home() {
             delay: 3.4
           }
         },
-      }}>
-        <img id="shouldersOfGiants" src="/images/shouldersOfGiants.png"></img>
-      </motion.div>
+      }} id="shouldersOfGiants" src="/images/shouldersOfGiants.png">
+      </motion.img>
       <main>
         <Header title="[Title of BIOMOD Project]" />
         <p className="description">
