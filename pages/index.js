@@ -25,7 +25,7 @@ export default function Home() {
         </h1>
         <Image 
           src="/images/shouldersOfGiants.jpg"
-          layout="fill"
+          layout="responsive"
           alt="I see further because I stand on the shoulders of giants."
         />
       </main>
