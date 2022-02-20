@@ -18,7 +18,9 @@ export default function FirstPost({ title, nextpage }) {
                 <Link href="/">
                     <a>Back to Home</a>
                 </Link> | 
-                <a onClick={() => router.push('/sections/' + {nextpage})}>{nextpage}</a>
+                <Link href={"/" + nextpage}>
+                    <a>{nextpage}</a>
+                </Link>
             </h2>
             <Footer/>
         </Layout>

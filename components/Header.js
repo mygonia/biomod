@@ -7,12 +7,12 @@ export default function Header({ title }) {
     <h1 className="title">{title}</h1>
     <ul>
       <li>
-        <Link href="/sections/abstract">
+        <Link href="/abstract">
           <a>Abstract</a>
         </Link>
       </li>
       <li>
-        <Link href="/sections/introduction">
+        <Link href="/introduction">
           <a>Introduction</a>
         </Link>
       </li>
