@@ -1,4 +1,4 @@
-import styles from './quotebox.module.scss'
+import styles from './quotebox.module.css'
 
 export default function quotebox({ quote, author }) {
     return (
